@@ -6,6 +6,7 @@ def evaluar_sebastia_vicens(operacio):
     # variable.split("+") --> retorna una llista amb cada una de les divisions que fa el símbol que posam a dins
     #                         Per exemple, "3+4".split("+") --> ["3", "4"]
     # int(variable) --> converteix la variable a tipus enter (que servirà per fer l'operació)
+    # float(variable) --> converteix la variable a tipus decimal (que servirà per fer l'operació)
 
     # Per acabar haureu de fer un return del resultat de l'operació
 
