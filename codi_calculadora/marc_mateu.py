@@ -12,22 +12,22 @@ def evaluar_marc_mateu(operacio):
 
     if operacio.find("+") != -1:
         operants = operacio.split("+")
-        resultat = int(operants[0]) + int(operants[1])
+        resultat = float(operants[0]) + float(operants[1])
         return resultat
     
     elif operacio.find("-") != -1:
         operants = operacio.split("-")
-        resultat = int(operants[0]) - int(operants[1])
+        resultat = float(operants[0]) - float(operants[1])
         return resultat
     
     elif operacio.find("*") != -1:
         operants = operacio.split("*")
-        resultat = int(operants[0]) * int(operants[1])
+        resultat = float(operants[0]) * float(operants[1])
         return resultat
     
     elif operacio.find("/") != -1:
         operants = operacio.split("/")
-        resultat = int(operants[0]) / int(operants[1])
+        resultat = float(operants[0]) / float(operants[1])
         return resultat
     
     
